@@ -1,4 +1,6 @@
-console.log("Hello World!");
-for (var i=0; i<10; i++) {
-    console.log("Hello World!");
+function getInputValue() {
+    var liczba = document.getElementById("myInput").value;
+    var ekran = document.getElementById("ope");
+
+    ekran.innerHTML = (liczba * liczba);
 }
