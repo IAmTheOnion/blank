@@ -1,4 +1,4 @@
-function getInputValue() {
+function start() {
     var liczba = document.getElementById("myInput").value;
     var ekran = document.getElementById("ope");
 
